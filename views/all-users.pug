@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 All users
+  ol
+    each k, i in all
+      li= "Login: "+ k.login +" Email: "+ k.email
